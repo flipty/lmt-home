@@ -1,0 +1,62 @@
+{
+    "key": "group_5fb98a5990a76",
+    "title": "Open Override",
+    "fields": [
+        {
+            "key": "field_5fb98a6e83b93",
+            "label": "Open Override",
+            "name": "open_override",
+            "type": "true_false",
+            "instructions": "Check this to OPEN the ordering no matter what time or day it is.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fc2e9962e5fb",
+            "label": "Admin Testing",
+            "name": "admin_override",
+            "type": "true_false",
+            "instructions": "This allows Dave to see the Order form, but nobody else",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1606609353
+}

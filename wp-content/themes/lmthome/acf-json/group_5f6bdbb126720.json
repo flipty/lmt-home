@@ -1,0 +1,43 @@
+{
+    "key": "group_5f6bdbb126720",
+    "title": "Order Code",
+    "fields": [
+        {
+            "key": "field_5f6bdbd810df2",
+            "label": "Button code from MerchantOne",
+            "name": "html",
+            "type": "textarea",
+            "instructions": "If it's a three-option plate, make sure to change the Meat option into a hidden input.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 20,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "food"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1604872605
+}
