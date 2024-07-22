@@ -1810,16 +1810,9 @@ footer {
   text-align: center;
   padding: 50px 0;
   color: #ffffff;
-  font-size: 21px;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 20, ../../../../../Users/tesch/Development/lmt-home/wp-content/themes/lmthome/scss/partials/_global.scss */
-footer a {
-  color: #ffffff;
-}
-
-/* line 22, ../../../../../Users/tesch/Development/lmt-home/wp-content/themes/lmthome/scss/partials/_global.scss */
+/* line 19, ../../../../../Users/tesch/Development/lmt-home/wp-content/themes/lmthome/scss/partials/_global.scss */
 footer a:hover {
   color: #bb290c;
   text-shadow: none;
