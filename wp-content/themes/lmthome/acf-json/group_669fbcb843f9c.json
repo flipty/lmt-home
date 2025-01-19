@@ -3,12 +3,12 @@
     "title": "Home Page",
     "fields": [
         {
-            "key": "field_669fbcb892499",
-            "label": "Carousel Items",
-            "name": "carousel_items",
+            "key": "field_673a2d102d25d",
+            "label": "Featured Projects",
+            "name": "grid_items",
             "aria-label": "",
             "type": "repeater",
-            "instructions": "",
+            "instructions": "Featured Image 860 x 600",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -25,9 +25,9 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
-                    "key": "field_669fbcf19249a",
-                    "label": "Item",
-                    "name": "item",
+                    "key": "field_673a2d1f2d25e",
+                    "label": "project",
+                    "name": "project",
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "",
@@ -46,10 +46,11 @@
                     "return_format": "id",
                     "multiple": 0,
                     "allow_null": 0,
+                    "allow_in_bindings": 0,
                     "bidirectional": 0,
                     "ui": 1,
                     "bidirectional_target": [],
-                    "parent_repeater": "field_669fbcb892499"
+                    "parent_repeater": "field_673a2d102d25d"
                 }
             ]
         }
@@ -72,5 +73,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1721744661
+    "modified": 1731956951
 }
